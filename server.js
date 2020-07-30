@@ -15,5 +15,8 @@ app.get('/', (req, res) => {
 const AdminRouter = require('./AdminRouter');
 app.use('/admin', AdminRouter);
 
+const ClientRouter = require('./ClientRouter');
+app.use('/client', ClientRouter);
+
 //App Start
 app.listen(port, () => console.log(`API running on PORT ${port}!`))
