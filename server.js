@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   res.send("This is a test API for checking CORS middleware with Express router")
 })
 
-const AdminRouter = require('./src/services/AdminServices');
+const AdminRouter = require('./AdminRouter');
 app.use('/admin', AdminRouter);
 
 //App Start
