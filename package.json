@@ -1,0 +1,13 @@
+{
+  "name": "testcors-express",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/JackyLN/testcorsexpress.git",
+  "author": "Jacky Le",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  }
+}
